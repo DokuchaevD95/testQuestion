@@ -4,9 +4,9 @@ from psycopg2 import sql
 
 class db:
 
-    __user = 'Dmitry'
+    __user = 'postgres'
     __host = 'localhost'
-    __password = 'Lenix1234'
+    __password = 'password'
     __port = '5432'
     __dbname = 'postgres'
     __cursor = None
